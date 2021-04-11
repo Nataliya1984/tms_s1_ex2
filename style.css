@@ -20,29 +20,40 @@ main {
 }
 
 .cap { 
-    height: 595px;
-    padding: 100px 28px 0 28px;
-    text-align: center;
-}
-
-h1 {
-    font-family:'Raleway', sans-serif;
-    font-size: 36px;
-    text-align: center;
-}
-
-h1.textDark {
-    color: white;  
+   padding: 100px 100px 108px 100px;
+   text-align: center;
 }
 
 h2 {
+    font-family:'Raleway';
+    font-size: 36px;
+    text-align: center;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h2.textDark {
+    color: white; 
+    position: relative;
+    z-index: 1; 
+}
+
+
+h3 {
+    font-family: 'Open Sans';
     font-size: 20px;
     text-align: center;
     font-weight: 700;
     margin-top: 30px;
+    font-style: normal;
 }
 
 p {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
     text-align: center;
     margin-top: 16px;
 }
@@ -53,6 +64,8 @@ p {
     font-weight: 400;
     color: white;
     margin-top: 18px;
+    position: relative;
+    z-index: 1;
 }
 
 .separator::after {
@@ -71,6 +84,7 @@ p {
    background-color: white;
    margin-top: 48px;
    position: absolute;
+   z-index: 1;
 }
 
 .text {
@@ -86,15 +100,16 @@ p {
     color: white;
     margin-top: 80px;
     text-align: center;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway';
     font-weight: 300;
+    position: relative;
+    z-index: 1;
 }
 
 .blockMain {
     width: 100%;
     display: flex;
     margin-top: 67px;
- 
 }
 
 .blockContainer {
@@ -128,7 +143,7 @@ p {
     content: "";
     height: 100%;
     width: 100%;
-    background-color: rgba(0,0,0,.5);
+    background-color: rgba(0,0,0,.6);
     position: absolute;
     top: 0;
     left: 0;
@@ -142,8 +157,13 @@ p {
 }
 
 .blockBackgroundText {
-    padding-top: 74px;
+    padding-top: 76px;
     text-align: center;
+}
+
+form {
+    position: relative;
+    z-index: 1;
 }
 
 input {
@@ -154,7 +174,7 @@ input {
     font-size: 15px;
     font-family: 'Open Sans', sans-serif;
     margin-top: 30px;
-    margin-bottom: 37px;
+    margin-bottom: 38px;
     border: 1px solid white;
 }
 
@@ -167,6 +187,8 @@ input {
 
 .centerImage {
     margin-top: 30px;
+    position: relative;
+    z-index: 1;
 }
 
 
