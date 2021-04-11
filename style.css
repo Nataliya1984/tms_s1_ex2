@@ -17,12 +17,11 @@ main {
     max-width: 1400px;
     width: 100%;
     margin: 0 auto;
-    padding: 2rem;
-    
 }
 
 .cap { 
     height: 595px;
+    width: 1200px;
     padding: 100px 28px 0 28px;
     text-align: center;
 }
