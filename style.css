@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    outline: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+html {
+    font-size: 14px;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+main {
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 2rem;
+    
+}
+
+.cap { 
+    height: 595px;
+    padding: 100px 28px 0 28px;
+    text-align: center;
+}
+
+h1 {
+    font-family:'Raleway', sans-serif;
+    font-size: 36px;
+    text-align: center;
+}
+
+h1.textDark {
+    color: white;  
+}
+
+
+h2 {
+    font-size: 20px;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 30px;
+}
+
+p {
+    text-align: center;
+    margin-top: 16px;
+}
+
+.centerText {
+    text-align: center;
+    font-size: 13px;
+    font-weight: 400;
+    color: white;
+    margin-top: 18px;
+}
+
+.separator::after {
+    content: '';
+    width: 64px;
+    height: 2px;
+   background-color: #E72424;
+   margin-top: 25px;
+   position: absolute;
+}
+
+.separatorCenter::after {
+    content: '';
+    width: 64px;
+    height: 2px;
+   background-color: white;
+   margin-top: 48px;
+   position: absolute;
+}
+
+.text {
+    font-size: 14px;
+    color: gray;
+    margin-top: 57px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.textCenter {
+    font-size: 16px;
+    color: white;
+    margin-top: 80px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+}
+
+.blockMain {
+    width: 100%;
+    display: flex;
+    margin-top: 67px;
+ 
+}
+
+.blockContainer {
+    width: calc(100% / 3);
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.blockImage {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 1px solid #E72424;
+    overflow: hidden;
+    margin: auto;
+    position: relative;
+}
+
+.blockImage img {
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  position: absolute;
+}
+
+.background {
+    position: relative;
+}
+
+.blockBackground::before {
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,.5);
+    position: absolute;
+}
+
+.blockBackground {
+    background-image: url(background/section.png);
+}
+
+.blockBackgroundText {
+    padding-top: 74px;
+    text-align: center;
+}
+
+
+input {
+    background-color: transparent;
+    width: 135px;
+    height: 42px;
+    color: white;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 30px;
+    margin-bottom: 37px;
+    border: 1px solid white;
+}
+
+.centerFooter {
+    background-color: black;
+    text-align: center;
+    height: 101px;
+    padding-bottom: 15px;
+}
+
+.centerImage {
+    margin-top: 30px;
+}
+
+
+
+
