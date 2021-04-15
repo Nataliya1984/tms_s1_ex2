@@ -45,20 +45,20 @@ h2.light {
     z-index: 1;
 }
 
-h1::after {
+h3::after {
     width: 64px;
     height: 2px;
     left: calc(50% - 32px);
 }
 
-h1.seporator::after {
+h3.seporator::after {
     content: "";
     position: absolute;
     background-color: #E72424;
     
 }
 
-h1.light::after {
+h3.light::after {
     content: "";
     position: absolute;
     background-color: #FFFFFF;
